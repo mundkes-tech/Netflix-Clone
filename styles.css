@@ -270,6 +270,160 @@ section.first > div :nth-child(2) {
   font-size: 0.85rem;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main {
+        height: 500px;
+    }
+
+    .main .box {
+        height: 500px;
+    }
+
+    nav {
+        padding: 0 10px;
+        height: 80px;
+    }
+
+    nav img {
+        width: 90px;
+    }
+
+    .hero {
+        transform: translateY(-40px);
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        max-width: 90vw;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .hero input {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .hero button {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    .first {
+        flex-direction: column;
+        text-align: center;
+        max-width: 90vw;
+    }
+
+    .secimg img {
+        max-width: 80vw;
+    }
+
+    .secimg video {
+        top: 40px;
+        right: 10px;
+        width: 70%;
+    }
+
+    section.first > div :nth-child(1) {
+        font-size: 36px;
+    }
+
+    section.first > div :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .faq {
+        padding: 20px;
+    }
+
+    .faq h1 {
+        font-size: 30px;
+    }
+
+    .faqbox {
+        width: 90%;
+        padding: 15px 20px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: 400px;
+    }
+
+    .main .box {
+        height: 400px;
+    }
+
+    nav {
+        height: 70px;
+    }
+
+    nav img {
+        width: 80px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero input {
+        width: 200px;
+    }
+
+    .hero button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .first {
+        max-width: 95vw;
+    }
+
+    .secimg img {
+        max-width: 90vw;
+    }
+
+    .secimg video {
+        top: 30px;
+        right: 5px;
+        width: 80%;
+    }
+
+    section.first > div :nth-child(1) {
+        font-size: 28px;
+    }
+
+    section.first > div :nth-child(2) {
+        font-size: 16px;
+    }
+
+    .faq h1 {
+        font-size: 24px;
+    }
+
+    .faqbox {
+        width: 95%;
+        padding: 12px 15px;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 
 
