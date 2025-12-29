@@ -3,7 +3,7 @@
 A visually accurate static front-end clone of the Netflix India landing page, built using HTML & CSS.
 This project replicates the home page sections, responsive layout, and overall visual style of Netflix for learning and UI practice purposes.
 
-# 🌟 Preview & Demo
+🌟 Preview & Demo
 
 🔹 Live Demo
 https://netflix-clone-zeta-lilac.vercel.app/
@@ -11,7 +11,7 @@ https://netflix-clone-zeta-lilac.vercel.app/
 🔹 Video Tutorial Reference
 https://youtu.be/C5ryYDSNL5A?si=zoueDRvv92tD8Pmy
 
-# ✨ Features
+✨ Features
 
 ✔ Pixel-perfect Netflix-style landing page
 ✔ Fully responsive layout
@@ -37,7 +37,7 @@ Sections Included
 
 🔗 Footer resource links
 
-# 🧰 Technologies Used
+🧰 Technologies Used
 
 HTML5
 
@@ -73,7 +73,7 @@ netflix-clone/
     ├── images/       # UI images
     └── videos/       # Media assets
 
-# 🎯 Learning Objectives
+🎯 Learning Objectives
 
 This project helped practice:
 
@@ -87,7 +87,7 @@ Typography and visual hierarchy
 
 Landing page design replication
 
-# 🤝 Contributing
+🤝 Contributing
 
 Suggestions, improvements, or UI enhancements are welcome.
 
